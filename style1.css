@@ -1,0 +1,59 @@
+*{
+    text-align:start;
+    font-family: 'Times New Roman', Times, serif;
+}
+div {
+    height:220px;
+    width:220px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: aqua;
+    border-color: brown;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.myclass{
+    text-decoration: underline dotted;
+    position: relative;
+    bottom: 50px;
+}
+.myclass2{
+    height:200px;
+    width:200px;
+    background-color: rgb(241, 240, 255);
+    border: 5px solid brown;
+    border-radius: 50%;
+   /* padding-left: 20px;
+   It is used to make a border between the content and the border*/
+   /*margin is for portion outside border*/
+   background-image:url("pic2.jpg");
+   background-size: cover;
+   position: relative;
+   left: 500px;
+}
+
+#box2{
+    position: relative;
+    bottom:54px;
+}
+#box3{
+    position: relative;
+    bottom: 18px;
+}
+#box4{
+    position: relative;
+    bottom: 18px;
+}
+
+body{
+    background-image: url("pic_1.avif");
+    background-size: cover;
+}
+button{
+    background-color:lawngreen;
+    position: relative;
+    left: 1130px;
+    top: 680px;
+}
