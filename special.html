@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffcccb;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3em;
+            color: #e63946;
+            animation: fadeIn 2s ease forwards;
+        }
+        p {
+            font-size: 1.5em;
+            color: #6d28d9;
+            animation: slideIn 1.5s ease forwards;
+            opacity: 0;
+            transform: translateY(20px);
+            animation-delay: 1s;
+        }
+        .heart {
+            font-size: 5em;
+            color: #ff4d4d;
+            animation: pulse 1.5s infinite;
+            margin: 20px 0;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>To My Love</h1>
+        <p>I LOVE YOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU</p>
+        <div class="heart">❤️</div>
+        <p>YOUR DUMBO</p>
+    </div>
+    <button><a href="./index.html">HOME</a></button>
+</body>
+</html>
+
+
+    
+
